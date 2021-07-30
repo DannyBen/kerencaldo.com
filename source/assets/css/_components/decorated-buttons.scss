@@ -36,6 +36,7 @@ a.big-button {
   text-align: center;
   padding: 10px;
   margin-bottom: 10px;
+  transition: all 300ms ease-in-out;
   
   @include mobile {
     padding: 5px;
@@ -57,12 +58,14 @@ a.big-button {
 
   img {
     filter: grayscale(80%);
+    transition: all 300ms ease-in-out;
   }
 
   &:focus, &:hover {
     text-decoration: none;
     background: #e4e4e4;
     img {
+      transition: all 300ms ease-in-out;
       filter: grayscale(0%);
     }
   }

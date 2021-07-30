@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:קרן קלדרון
+N;CHARSET=UTF-8:קלדרון;קרן;;;
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:me@kerencaldo.com
+TEL;TYPE=CELL:+972-544676633
+ORG;CHARSET=UTF-8:הדרכת הורים וצוותי חינוך
+URL;type=WORK;CHARSET=UTF-8:https://www.kerencaldo.com
+REV:2021210T1640Z
+END:VCARD
