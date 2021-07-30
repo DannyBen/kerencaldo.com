@@ -1,0 +1,50 @@
+.hero.home
+  h1 = settings.title
+  h2 = settings.subtitle
+
+main
+  .row.tight
+    .col.span-6
+      a.image-button href=settings.instagram
+        i.icon-instagram
+        p האינסטגרם שלי
+
+    .col.span-6
+      a.image-button href=settings.facebook
+        i.icon-facebook
+        p עמוד הפייסבוק שלי
+
+  .row.tight
+    .col.span-6
+      a.image-button href=(settings.whatsapp % {phone: settings.phone})
+        i.icon-whatsapp
+        p דברו איתי בוואטסאפ
+
+    .col.span-6
+      a.image-button href="mailto:#{settings.email}"
+        i.icon-mail
+        p שלחו אלי אימייל
+    
+  .row.tight
+    .col.span-6
+      a.image-button href="/assets/files/vcard.vcf"
+        i.icon-address-book
+        p הוסיפו אותי לאנשי קשר
+
+    .col.span-6
+      a.image-button href="tel:#{settings.phone}"
+        i.icon-phone
+        p חייגו אלי
+
+
+  .row.tight
+    .col.span-6
+      a.big-button href=settings.ganvivi
+        = image_tag "/assets/images/ganvivi.png"
+        p הצצה אל הגן שלי 
+
+    .col.span-6
+      a.big-button href="/cards"
+        = image_tag "/assets/images/cards.png"
+        p חבורת הרגש
+

@@ -1,0 +1,46 @@
+@keyframes hero1 {
+  from { background-position: 0% 100%; }
+  to   { background-position: 50% 0; }
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f1f1f1;
+
+  img {
+    width: 400px;
+    max-width: 90%;
+  }
+
+  h1 {
+    margin-top: 0;
+    color: #000;
+  }
+
+  h2 {
+    font-size: $font-size-h4;
+    color: #666;
+  }
+}
+
+.hero.home {
+  background: #f1f1f1 url(/assets/images/seminar.jpg) no-repeat 50% 0;
+  background-size: cover;
+  animation: hero1 30s linear;
+  h1 {
+    letter-spacing: 10px;
+  }
+}
+
+@keyframes hero2 {
+  from { filter: grayscale(80%); }
+  to   { filter: grayscale(0%); }
+}
+
+.hero.cards {
+  background: #f1f1f1 url(/assets/images/cards-background.png) no-repeat 50% 50%;
+  background-size: cover;
+  min-height: 250px;
+  animation: hero2 40s linear;
+}

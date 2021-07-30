@@ -1,0 +1,30 @@
+title   "Helpers"
+
+help   "Generate the VCard"
+action :vcard do
+  values = {
+    first_name: "קרן",
+    last_name: "קלדרון",
+    email: "me@kerencaldo.com",
+    cell_phone: "+972-544676633",
+    organization: "הדרכת הורים וצוותי חינוך",
+    website: "https://www.kerencaldo.com",
+    timestamp: Time.now.strftime('%Y%jT%H%MZ')  
+  }
+  vcard = File.read "support/templates/vcard.vcf"
+
+  puts vcard % values
+end
+
+help   "Extract fontello zip"
+action :fontello do
+  run "mkdir -p tmp/fontello"
+  zip = Dir["tmp/fontello*.zip"].first
+  run "unzip -j -o  #{zip} -d tmp/fontello"
+  %w[eot svg ttf woff woff2].each do |ext|
+    run "cp tmp/fontello/fontello.#{ext} source/assets/font/"
+  end
+
+  run "cp tmp/fontello/fontello.css source/assets/css/_components/"
+  run "cp tmp/fontello/config.json support/fontello/"
+end

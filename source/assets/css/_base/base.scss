@@ -1,0 +1,21 @@
+hr {
+  border: 0;
+  border-top: $border;
+  display: block;
+  margin-top: $md-pad;
+  margin-bottom: $md-pad;
+  width: 100%;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: baseline;
+}
+
+strong {
+  font-weight: bold;
+}

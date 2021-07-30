@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    meta http-equiv="x-ua-compatible" content="ie=edge"
+    meta name="HandheldFriendly" content="true"
+    meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
+
+    title = title_with current_page.data.title
+    
+    = stylesheet_link_tag "site"
+    = javascript_include_tag "site"
+
+  body dir='rtl'
+    header: a href="/" = image_tag "/assets/images/logo.svg"
+    = yield
+    footer
+      p = "#{settings.title} - #{settings.subtitle}"
+      p כל הזכויות שמורות &copy; #{Date.today.year}
+
+
+

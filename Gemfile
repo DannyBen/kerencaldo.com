@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'byebug'
+gem 'filewatcher'
+gem 'foreman'
+gem 'httpme'
+gem 'middleman'
+gem 'runfile'
+gem 'sasstool'
+gem 'slim'
+gem 'sting'
+gem 'pretty_trace'

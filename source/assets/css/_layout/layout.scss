@@ -1,0 +1,33 @@
+main, header, footer, section {
+  margin: 0 auto;
+  width: 100%;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: $large-breakpoint;
+	min-height: 50vh;
+  padding: $md-pad $md-pad $xlg-pad $md-pad;
+}
+
+footer {
+  border-top: $border;
+  padding: $md-pad $md-pad $xlg-pad $md-pad;
+  text-align: center;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+header {
+	background: $primary;
+  border-bottom: 1px solid black;
+	text-align: center;
+	padding: 4px;
+	img {
+		max-height: 40px;
+	}
+}
+

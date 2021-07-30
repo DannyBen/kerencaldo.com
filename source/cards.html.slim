@@ -1,0 +1,24 @@
+---
+title: חבורת הרגש
+---
+
+.hero.cards
+
+main
+  h1.center
+    | חבורת הרגש
+    span משחק קלפים לעידוד פתיחות רגשית
+
+  = markdown_file "cards"
+
+  .row
+    .col.span-6
+      a.image-button href=settings.cards_form
+        i.icon-check
+        p טופס הרשמה
+
+    .col.span-6
+      a.image-button href=(settings.whatsapp % {phone: settings.phone})
+        i.icon-whatsapp
+        p דברו איתי בוואטסאפ
+

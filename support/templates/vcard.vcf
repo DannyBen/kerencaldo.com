@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:%{first_name} %{last_name}
+N;CHARSET=UTF-8:%{last_name};%{first_name};;;
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:%{email}
+TEL;TYPE=CELL:%{cell_phone}
+ORG;CHARSET=UTF-8:%{organization}
+URL;type=WORK;CHARSET=UTF-8:%{website}
+REV:%{timestamp}
+END:VCARD
