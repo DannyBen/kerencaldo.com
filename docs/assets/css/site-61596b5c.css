@@ -312,7 +312,8 @@ a.image-button {
   border-radius: 10px;
   background: #f1f1f1;
   padding: 5px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  transition: all 300ms ease-in-out; }
   a.image-button i {
     flex-shrink: 1;
     color: #333;
@@ -326,7 +327,8 @@ a.image-button {
     padding: 10px; }
   a.image-button:focus, a.image-button:hover {
     text-decoration: none;
-    background: #e4e4e4; }
+    background: #e4e4e4;
+    transition: all 300ms ease-in-out; }
 
 a.big-button {
   display: block;
@@ -425,4 +427,4 @@ header {
     max-height: 44px; }
 
 
-/*# sourceMappingURL=site-f961f97b.css.map */
+/*# sourceMappingURL=site-61596b5c.css.map */

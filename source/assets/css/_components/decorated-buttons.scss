@@ -7,6 +7,8 @@ a.image-button {
   background: #f1f1f1;
   padding: 5px;
   margin-bottom: 10px;
+
+  transition: all 300ms ease-in-out;
   
   i {
     flex-shrink: 1;
@@ -26,6 +28,7 @@ a.image-button {
   &:focus, &:hover {
     text-decoration: none;
     background: #e4e4e4;
+    transition: all 300ms ease-in-out;
   }
 }
 
