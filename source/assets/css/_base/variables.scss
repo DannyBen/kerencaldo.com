@@ -34,7 +34,7 @@ $link-hover-color: darken($link-color, 15%) !default;
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;700&display=swap');
 $sans-serif: Assistant,sans-serif !default;
 $serif: Georgia, Times, 'Times New Roman', serif !default;
-$monospace: Menlo, Monaco, Consolas, 'Courier New', monospace !default;
+$monospace: Consolas, monospace !default;
 $font-family: $sans-serif !default;
 
 //Typography
