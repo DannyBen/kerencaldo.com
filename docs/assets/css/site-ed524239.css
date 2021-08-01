@@ -382,7 +382,7 @@ a.big-button {
     color: #666; }
 
 .hero.home {
-  background: #f1f1f1 url(/assets/images/seminar-335a43b4.jpg) no-repeat 50% 0;
+  background: #f1f1f1 url(/assets/images/seminar-1aa3f2d9.jpg) no-repeat 50% 0;
   background-size: cover;
   animation: hero1 30s linear; }
   .hero.home h1 {
@@ -422,9 +422,10 @@ header {
   background: Turquoise;
   border-bottom: 1px solid black;
   text-align: center;
-  padding: 4px; }
+  padding: 4px;
+  line-height: 1; }
   header img {
     max-height: 44px; }
 
 
-/*# sourceMappingURL=site-61596b5c.css.map */
+/*# sourceMappingURL=site-ed524239.css.map */
