@@ -10,7 +10,7 @@ module CustomHelpers
   end
 
   def markdown_file(name)
-    file = "source/_markdown/#{name}.md"
+    file = "source/markdown/_#{name}.md"
     text = File.read file
     Kramdown::Document.new(text).to_html
   end
