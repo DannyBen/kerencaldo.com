@@ -47,6 +47,18 @@
       "css": "check",
       "code": 59394,
       "src": "fontawesome"
+    },
+    {
+      "uid": "c2314ed1d2314b89f9285c53bcbf2548",
+      "css": "child",
+      "code": 61870,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "31972e4e9d080eaa796290349ae6c1fd",
+      "css": "users",
+      "code": 59395,
+      "src": "fontawesome"
     }
   ]
 }
