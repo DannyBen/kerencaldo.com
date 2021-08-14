@@ -1,9 +1,10 @@
 hr {
   border: 0;
-  border-top: $border;
+  // border-top: $border;
+  border-top: transparent;
   display: block;
-  margin-top: $md-pad;
-  margin-bottom: $md-pad;
+  margin-top: $lg-pad;
+  margin-bottom: $lg-pad;
   width: 100%;
   box-sizing: content-box;
   height: 0;
