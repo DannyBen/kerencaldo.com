@@ -18,13 +18,13 @@ end
 
 help   "Extract fontello zip"
 action :fontello do
-  run "mkdir -p tmp/fontello"
+  system "mkdir -p tmp/fontello"
   zip = Dir["tmp/fontello*.zip"].first
-  run "unzip -j -o  #{zip} -d tmp/fontello"
+  system "unzip -j -o  #{zip} -d tmp/fontello"
   %w[eot svg ttf woff woff2].each do |ext|
-    run "cp tmp/fontello/fontello.#{ext} source/assets/font/"
+    system "cp tmp/fontello/fontello.#{ext} source/assets/font/"
   end
 
-  run "cp tmp/fontello/fontello.css source/assets/css/_components/"
-  run "cp tmp/fontello/config.json support/fontello/"
+  system "cp tmp/fontello/fontello.css source/assets/css/_components/"
+  system "cp tmp/fontello/config.json support/fontello/"
 end
