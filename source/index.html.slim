@@ -28,25 +28,31 @@ main
         p עמוד הפייסבוק שלי
 
     .col.span-4
-      a.big-button href=(settings.whatsapp % {phone: settings.phone})
-        i.icon-whatsapp
-        p דברו איתי בוואטסאפ
+      a.big-button href=settings.drive
+        i.icon-folder-open-empty
+        p קבצים להורדה
 
   .row.tight
     .col.span-4
       a.big-button href="mailto:#{settings.email}"
         i.icon-mail
         p שלחו אלי אימייל
-    
+
     .col.span-4
-      a.big-button href="/assets/files/vcard.vcf"
-        i.icon-address-book
-        p הוסיפו אותי לאנשי קשר
+      a.big-button href=(settings.whatsapp % {phone: settings.phone})
+        i.icon-whatsapp
+        p דברו איתי בוואטסאפ
 
     .col.span-4
       a.big-button href="tel:#{settings.phone}"
         i.icon-phone
         p חייגו אלי
+
+    / .col.span-4
+    /   a.big-button href="/assets/files/vcard.vcf"
+    /     i.icon-address-book
+    /     p הוסיפו אותי לאנשי קשר
+
 
   hr
 
