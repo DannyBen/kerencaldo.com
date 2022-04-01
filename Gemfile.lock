@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.1.4.1)
+    activesupport (6.1.5)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -9,23 +9,23 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    backports (3.21.0)
+    backports (3.23.0)
     byebug (11.1.3)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
     colsole (0.7.2)
-    concurrent-ruby (1.1.9)
+    concurrent-ruby (1.1.10)
     contracts (0.13.0)
     docopt (0.6.1)
     dotenv (2.7.6)
     erubis (2.7.0)
     execjs (2.8.1)
-    extended_yaml (0.2.1)
+    extended_yaml (0.2.3)
     fast_blank (1.0.1)
-    fastimage (2.2.5)
-    ffi (1.15.4)
+    fastimage (2.2.6)
+    ffi (1.15.5)
     filewatcher (1.1.1)
       optimist (~> 3.0)
     foreman (0.87.2)
@@ -42,21 +42,21 @@ GEM
       rack (~> 2.2)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    kramdown (2.3.1)
+    kramdown (2.3.2)
       rexml
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     memoist (0.16.2)
-    middleman (4.4.0)
+    middleman (4.4.2)
       coffee-script (~> 2.2)
       haml (>= 4.0.5)
       kramdown (>= 2.3.0)
-      middleman-cli (= 4.4.0)
-      middleman-core (= 4.4.0)
-    middleman-cli (4.4.0)
+      middleman-cli (= 4.4.2)
+      middleman-core (= 4.4.2)
+    middleman-cli (4.4.2)
       thor (>= 0.17.0, < 2.0)
-    middleman-core (4.4.0)
+    middleman-core (4.4.2)
       activesupport (>= 6.1, < 7.0)
       addressable (~> 2.4)
       backports (~> 3.6)
@@ -81,7 +81,7 @@ GEM
       toml
       uglifier (~> 3.0)
       webrick
-    minitest (5.14.4)
+    minitest (5.15.0)
     mister_bin (0.7.1)
       colsole (~> 0.5)
       docopt (~> 0.6)
@@ -92,14 +92,14 @@ GEM
       padrino-support (= 0.15.1)
       tilt (>= 1.4.1, < 3)
     padrino-support (0.15.1)
-    parallel (1.21.0)
+    parallel (1.22.1)
     parslet (2.0.0)
     pretty_trace (0.2.5)
     public_suffix (4.0.6)
-    puma (5.6.2)
+    puma (5.6.4)
       nio4r (~> 2.0)
     rack (2.2.3)
-    rb-fsevent (0.11.0)
+    rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
@@ -114,7 +114,7 @@ GEM
     sting (0.5.1)
       extended_yaml (~> 0.2)
     temple (0.8.2)
-    thor (1.1.0)
+    thor (1.2.1)
     tilt (2.0.10)
     toml (0.3.0)
       parslet (>= 1.8.0, < 3.0.0)
@@ -123,7 +123,7 @@ GEM
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
     webrick (1.7.0)
-    zeitwerk (2.4.2)
+    zeitwerk (2.5.4)
 
 PLATFORMS
   x86_64-linux
@@ -140,4 +140,4 @@ DEPENDENCIES
   sting
 
 BUNDLED WITH
-   2.2.26
+   2.3.10
